@@ -1,0 +1,8 @@
+package com.example.materiallist.componenets.model
+
+enum class MenuType(val value : Int) {
+    NORMAL(1001),
+    HEADER(1002),
+    SUB_HEADER(1003),
+    DIVIDER(1004)
+}

@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialList">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.appbarlayout.AppBarLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.viewpager.ViewPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.viewholdertouchhelper.TouchHelperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ComponentListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
